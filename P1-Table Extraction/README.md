@@ -16,7 +16,5 @@ With out this, a lot of websites block the request because seems to be coming fr
 I also learned that headers are like some additional information on request to web server.
 
 It worked at certain point, but I did not like the result. Was not complete and not easy to read only using print.
-
-Web Scraping consists in extracting data from websites.
-Instead of doing manually we can automate it.
-We are extracting .csv files from URL using Pandas
+Since we are focusing on the automation procedure instead of the UI. I got help for AI for that visual part.
+We needed to use Tkinter and Treeview to show correctly.
