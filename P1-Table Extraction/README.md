@@ -17,6 +17,8 @@ I also learned that headers are like some additional information on request to w
 
 It worked at certain point, but I did not like the result. Was not complete and not easy to read only using print.
 
+<img width="942" height="235" alt="imagen" src="https://github.com/user-attachments/assets/940422a6-55b3-4c92-a854-a45730288078" />
+
 Web Scraping consists in extracting data from websites.
 Instead of doing manually we can automate it.
 We are extracting .csv files from URL using Pandas
