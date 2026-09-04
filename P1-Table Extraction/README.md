@@ -4,12 +4,13 @@
 
 I encountered an issue to run the program. Seems like wikipedia is blocking access due to security.
 We need to download the HTML first with requests and then pass it to pandas.read.html
+
 With
 
-´´´
+```
 headers = {"User-Agent": "Mozilla/5.0"}
 response = requests.get(url, headers=headers)
-´´´
+```
 
 We are creating a header dictionary.
 With out this, a lot of websites block the request because seems to be coming from a "bot".
