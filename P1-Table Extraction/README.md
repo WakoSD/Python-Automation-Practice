@@ -1,3 +1,7 @@
+# Projects:
+### 1. Extract Tables from websites
+Automation that automatically downloads the Dark Wikipedia page (Could be any web with tables, in this case is my favorite series), extracts its character table, cleans and formats the data, and presents the results in a separate graphical table window.
+
 # Results:
 ## 1. Extract Tables from websites
 <img width="1197" height="624" alt="imagen" src="https://github.com/user-attachments/assets/827b42c5-8ac2-4365-9f68-aee87c804736" />
