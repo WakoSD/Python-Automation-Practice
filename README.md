@@ -15,3 +15,8 @@ more cybersecurity-related automation, scripting, and security tooling.
 - Build a portfolio of practical automation projects.
 
 ## Lessons and Tools learned
+
+- Pandas Library
+- TKinter
+- Automation
+- StringIO
