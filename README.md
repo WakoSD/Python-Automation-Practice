@@ -13,3 +13,5 @@ more cybersecurity-related automation, scripting, and security tooling.
 - Practice writing clean and reusable Python scripts.
 - Apply Python to cybersecurity tasks.
 - Build a portfolio of practical automation projects.
+
+## Lessons and Tools learned
