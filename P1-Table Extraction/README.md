@@ -1,5 +1,8 @@
-# Lesson Learned
+#Results:
+## 1. Extract Tables from websites
+<img width="1197" height="624" alt="imagen" src="https://github.com/user-attachments/assets/827b42c5-8ac2-4365-9f68-aee87c804736" />
 
+# Lesson Learned
 ## Extract Tables from Websites
 
 I encountered an issue to run the program. Seems like wikipedia is blocking access due to security.
