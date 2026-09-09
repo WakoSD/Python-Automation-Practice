@@ -54,34 +54,20 @@ def show_table(dataframe):
     window.title("DARK - Character Information")
     window.geometry("1200x600")
     window.minsize(800, 400)
-
-
-    # ========================================================
-    # TITLE
-    # ========================================================
-
+    #Title
     title = tk.Label(
         window,
         text="DARK - Character Information",
         font=("Arial", 20, "bold")
     )
-
     title.pack(pady=(15, 5))
-
-
     subtitle = tk.Label(
         window,
         text=f"{len(dataframe)} characters extracted from Wikipedia",
         font=("Arial", 10)
     )
-
     subtitle.pack(pady=(0, 15))
-
-
-    # ========================================================
-    # TABLE FRAME
-    # ========================================================
-
+    #table frame
     table_frame = tk.Frame(window)
 
     table_frame.pack(
@@ -90,31 +76,15 @@ def show_table(dataframe):
         padx=20,
         pady=10
     )
-
-
-    # ========================================================
-    # CREATE INTERNAL COLUMN IDs
-    # ========================================================
-
     # Create simple IDs for Treeview
     column_ids = [f"col{i}" for i in range(len(dataframe.columns))]
-
-
-    # ========================================================
-    # CREATE TREEVIEW
-    # ========================================================
-
+    #Create Treeview
     table = ttk.Treeview(
         table_frame,
         columns=column_ids,
         show="headings"
     )
-
-
-    # ========================================================
-    # CONFIGURE COLUMNS
-    # ========================================================
-
+    #Columns
     for column_id, column_name in zip(
         column_ids,
         dataframe.columns
@@ -130,11 +100,6 @@ def show_table(dataframe):
             width=180,
             anchor="w"
         )
-
-
-    # ========================================================
-    # CUSTOM COLUMN WIDTHS
-    # ========================================================
 
     table.column(
         "col0",
@@ -155,12 +120,7 @@ def show_table(dataframe):
         "col3",
         width=200
     )
-
-
-    # ========================================================
-    # INSERT DATA
-    # ========================================================
-
+    #Inserts data
     for _, row in dataframe.iterrows():
 
         table.insert(
@@ -168,12 +128,7 @@ def show_table(dataframe):
             "end",
             values=list(row)
         )
-
-
-    # ========================================================
-    # SCROLLBARS
-    # ========================================================
-
+    #Scrollbar
     vertical_scrollbar = ttk.Scrollbar(
         table_frame,
         orient="vertical",
@@ -190,12 +145,7 @@ def show_table(dataframe):
         yscrollcommand=vertical_scrollbar.set,
         xscrollcommand=horizontal_scrollbar.set
     )
-
-
-    # ========================================================
-    # GRID LAYOUT
-    # ========================================================
-
+    #Grid layout
     table.grid(
         row=0,
         column=0,
@@ -225,11 +175,6 @@ def show_table(dataframe):
         weight=1
     )
 
-
-    # ========================================================
-    # CLOSE BUTTON
-    # ========================================================
-
     close_button = ttk.Button(
         window,
         text="Close",
@@ -239,12 +184,7 @@ def show_table(dataframe):
     close_button.pack(
         pady=15
     )
-
-
-    # ========================================================
-    # START GUI
-    # ========================================================
-
+    #Starts the GUI
     window.mainloop()
 # DISPLAY THE RESULTS
 
