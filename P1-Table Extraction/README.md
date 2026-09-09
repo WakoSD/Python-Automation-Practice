@@ -8,6 +8,10 @@ Automation that automatically downloads the Dark Wikipedia page (Could be any we
 
 Automatically read the CSV files on a website and download them without any need to do it manually.
 
+### 2. Extra Tables from PDFs
+
+Automatically read the CSV files on a website and download them without any need to do it manually.
+
 # Results:
 
 ## 1. Extract Tables from websites
@@ -43,7 +47,6 @@ It worked at certain point, but I did not like the result. Was not complete and 
 Since we are focusing on the automation procedure instead of the UI. I got help for AI for that visual part.
 We needed to use Tkinter and Treeview to show correctly.
 
-
-##  Read CSV files from website
+## Read CSV files from website
 
 No big issues. Learned the process to read and edit columns with pandas on CSV files downloaded from a website
