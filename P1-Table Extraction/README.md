@@ -22,6 +22,10 @@ Automatically read the CSV files on a website and download them without any need
 
 <img width="1069" height="191" alt="imagen" src="https://github.com/user-attachments/assets/c2ccedf7-3dbe-423e-831c-260289412621" />
 
+## 3. Extract tables from PDF
+
+<img width="1277" height="549" alt="imagen" src="https://github.com/user-attachments/assets/ea39f9c0-2b44-4bec-9057-308d287d7f66" />
+
 # Lesson Learned
 
 ## Extract Tables from Websites
