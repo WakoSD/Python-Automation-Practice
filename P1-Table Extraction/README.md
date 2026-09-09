@@ -14,6 +14,10 @@ Automatically read the CSV files on a website and download them without any need
 
 <img width="1197" height="624" alt="imagen" src="https://github.com/user-attachments/assets/827b42c5-8ac2-4365-9f68-aee87c804736" />
 
+## 2. Read CSV files from website
+
+<img width="1069" height="191" alt="imagen" src="https://github.com/user-attachments/assets/c2ccedf7-3dbe-423e-831c-260289412621" />
+
 # Lesson Learned
 
 ## Extract Tables from Websites
@@ -38,3 +42,8 @@ It worked at certain point, but I did not like the result. Was not complete and 
 
 Since we are focusing on the automation procedure instead of the UI. I got help for AI for that visual part.
 We needed to use Tkinter and Treeview to show correctly.
+
+
+##  Read CSV files from website
+
+No big issues. Learned the process to read and edit columns with pandas on CSV files downloaded from a website
