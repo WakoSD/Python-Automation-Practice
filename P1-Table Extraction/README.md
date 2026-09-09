@@ -54,3 +54,7 @@ We needed to use Tkinter and Treeview to show correctly.
 ## Read CSV files from website
 
 No big issues. Learned the process to read and edit columns with pandas on CSV files downloaded from a website
+
+## Read CSV files from website
+
+No big issues. Learned the process to read and extract tables from PDFs and create a csv file for that. 
