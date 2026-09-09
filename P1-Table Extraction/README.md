@@ -1,4 +1,4 @@
-# Projects:
+# Practice:
 
 ### 1. Extract Tables from websites
 
