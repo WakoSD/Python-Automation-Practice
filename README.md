@@ -20,3 +20,4 @@ more cybersecurity-related automation, scripting, and security tooling.
 - TKinter
 - Automation
 - StringIO
+- Camelot Library
