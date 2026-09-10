@@ -21,3 +21,6 @@ more cybersecurity-related automation, scripting, and security tooling.
 - Automation
 - StringIO
 - Camelot Library
+- XPath basics
+- ChromeDriver (OldVersion)
+- Selenium
