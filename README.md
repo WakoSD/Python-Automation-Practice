@@ -21,6 +21,6 @@ more cybersecurity-related automation, scripting, and security tooling.
 - Automation
 - StringIO
 - Camelot Library
-- XPath basics
+- XPath (driver.find_element(by="xpath", value="//div[@class='promo-headline ']/h3/a"))
 - ChromeDriver (OldVersion)
 - Selenium
